@@ -1,0 +1,42 @@
+{
+  "icon_theme": "Catppuccin Mocha",
+  "language_models": {
+    "language_models": {
+      "groq": {
+        "api_url": "https://api.groq.com/openai/v1",
+        "available_models": [
+          {
+            "name": "llama3-70b-8192",
+            "display_name": "LLaMA 3 70B (Groq)",
+            "max_tokens": 8192
+          },
+          {
+            "name": "mixtral-8x7b-32768",
+            "display_name": "Mixtral 8x7B (Groq)",
+            "max_tokens": 32768
+          }
+        ],
+        "version": "1"
+      }
+    },
+    "agent": {
+      "dock": "right",
+      "model_parameters": [],
+      "default_model": {
+        "provider": "groq",
+        "model": "llama3-70b-8192"
+      },
+      "version": "2"
+    }
+  },
+  "GROQ_API_KEY": "<YOUR_GROQ_API_KEY>",
+  "ui_font_size": 16,
+  "ui_font_family": "Droid Sans Mono",
+  "buffer_font_size": 15,
+  "buffer_font_family": "Droid Sans Mono",
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha - No Italics"
+  }
+}
